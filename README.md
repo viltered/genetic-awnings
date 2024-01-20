@@ -1,5 +1,5 @@
 # genetic-awnings
-A genetic algorithm demo born out of frustration with a heatwave. Optimizes the shape of canopies/awnings to keep sunlight out during the summer, but not during the winter.
+A genetic algorithm demo born out of frustration with a heatwave. Optimizes the shape of canopies/awnings to keep sunlight out during the summer, but not during the winter. Works for different locations on earth or window orientations.
 
 The [sunposition](https://github.com/s-bear/sun-position) module is used to calculate the direction of sunlight throughout the year. Each generation some random days are picked, the canopies' fitness is evaluated, and the worst ones are replaced with mutated offspring from the best. A score function dictates the reward/punishment for shade depending on the day of the year.
 
